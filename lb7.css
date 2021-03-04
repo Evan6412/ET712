@@ -1,0 +1,15 @@
+form{
+  border:inset;
+  margin: 25%;
+  padding: 20px;
+  font-family:fantasy;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+border: solid;
+margin: 5%;
+padding: 2px;
+color: aqua;
+}

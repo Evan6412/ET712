@@ -1,0 +1,26 @@
+#title {
+  color:blue;
+  background-color:gray;
+  width:100px;
+  }
+
+body {
+  background-color:rgb(154, 255, 255);
+  }
+
+.bluebox {
+  border-style:solid;
+  border-width:5px;
+  border-color:blue;
+  border-radius:15%;
+  width:130px;
+  background-color: gray;
+  }
+  a:hover{
+    font-family: sans-serif;
+    color: black;
+  }
+  button:hover{
+    font-family:Impact;
+    color:rgb(114, 189, 255);
+  }

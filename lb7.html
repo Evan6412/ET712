@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ET 712 Forms!</title>
+    <link href="lb7.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div>
+      <form name="futureInput">
+        "first input:"<input name="in1">
+        <br>
+        "second input:"<input name="in2">
+        <br>
+        "third input:"<input name="in3">
+        <br>
+      <input type="button" value="find out your fortune" onclick="future()">
+      </form>
+    </div>
+    <script>
+      function future() {
+        var in1=document.futureInput.in1.value;
+        var in2=document.futureInput.in2.value;
+        var in3=document.futureInput.in3.value;
+      alert(in1 +" "+ in2 +" " + in3);
+      console.log(in1,in2,in3);
+      }
+      function future() {
+        var in1=document.futureInput.in1.value;
+        var in2=document.futureInput.in2.value;
+        var in3=document.futureInput.in3.value;
+      alert(in1 +" "+ in2 +" " + in3);
+      console.log(in1,in2,in3);
+      }
+    </script>
+  </body>
+</html>
